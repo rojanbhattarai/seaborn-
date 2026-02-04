@@ -1,0 +1,7 @@
+Feature 	Matplotlib	Seaborn
+Level of Abstraction	Low-level interface for maximum control.	High-level interface built on Matplotlib.
+Ease of Use	Requires more code to create complex or aesthetically pleasing plots.	Uses simpler, fewer lines of code for sophisticated plots.
+Aesthetics/Styling	Basic default styles; requires manual customization for polished visuals.	Provides beautiful, built-in themes and color palettes by default.
+Statistical Focus	General-purpose plotting; requires manual configuration for statistical elements.	Specialized for statistical data visualization (e.g., heatmaps, violin plots, regression lines).
+Pandas Integration	Integrates well with Pandas, but often requires manually specifying columns.	Designed for seamless integration with Pandas DataFrames; accepts columns by name.
+Customization	Offers extensive, granular control over every plot element (axes, labels, etc.).	Offers fewer customization options than Matplotlib but good defaults.
