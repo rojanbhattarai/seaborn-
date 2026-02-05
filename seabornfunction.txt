@@ -1,0 +1,75 @@
+📊 1. Relational Plots (Relationship between variables)
+
+Used to see trends, patterns, correlations.
+
+sns.scatterplot() → Scatter plot
+
+sns.lineplot() → Line chart (time series, trends)
+
+sns.relplot() → Figure-level relational plot (wrapper)
+
+👉 Example use: relationship between height and weight.
+
+📈 2. Distribution Plots (Data distribution)
+
+Used to understand how data is spread.
+
+sns.histplot() → Histogram
+
+sns.kdeplot() → Density curve
+
+sns.displot() → Distribution plot (figure-level)
+
+sns.ecdfplot() → Empirical cumulative distribution
+
+👉 Example use: exam score distribution.
+
+📦 3. Categorical Plots (Compare categories)
+
+Best for comparing groups or categories.
+
+sns.barplot() → Average values per category
+
+sns.countplot() → Frequency count
+
+sns.boxplot() → Box and whisker plot
+
+sns.violinplot() → Distribution + density
+
+sns.stripplot() → Scatter for categories
+
+sns.swarmplot() → Non-overlapping categorical scatter
+
+sns.catplot() → Figure-level categorical plot
+
+👉 Example use: marks comparison between classes.
+
+🔥 4. Matrix Plots (Correlation & heatmaps)
+
+Useful for relationships between many variables.
+
+sns.heatmap() → Correlation matrix or 2D data
+
+sns.clustermap() → Clustered heatmap
+
+👉 Example use: correlation between subjects.
+
+🔗 5. Regression Plots (Statistical modeling)
+
+Show regression lines and trends.
+
+sns.regplot() → Scatter + regression line
+
+sns.lmplot() → Linear model plot
+
+👉 Example use: study hours vs marks.
+
+🧩 6. Multi-plot Grids (Advanced visualization)
+
+Useful for exploring datasets.
+
+sns.pairplot() → Pairwise relationships
+
+sns.jointplot() → Joint distribution of two variables
+
+sns.FacetGrid() → Multiple subplots by category
