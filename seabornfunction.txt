@@ -40,7 +40,7 @@ sns.stripplot() → Scatter for categories
 
 sns.swarmplot() → Non-overlapping categorical scatter
 
-sns.catplot() → Figure-level categorical plot
+sns.catplot() → Figure-level categorical plot in better manner
 
 👉 Example use: marks comparison between classes.
 
